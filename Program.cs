@@ -68,6 +68,7 @@ int count = N % 2==0;
 
 while (count <= N)
 {
+        if(count%2==0) Console.WriteLine(count);
         Console.Write(count+" ");
         count++;
 }
