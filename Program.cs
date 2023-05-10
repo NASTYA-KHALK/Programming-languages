@@ -62,13 +62,4 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.WriteLine("Enter number:");
-int N = Convert.ToInt32(Console.ReadLine());
-int count = N % 2==0;
 
-while (count <= N)
-{
-        if(count%2==0) Console.WriteLine(count);
-        Console.Write(count+" ");
-        count++;
-}
